@@ -1,0 +1,25 @@
+{
+  "name": "tienda-don_bigotes",
+  "version": "1.0.0",
+  "description": "Tienda virtual para la marca don bigotes\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpolania96/tienda-don_bigotes.git"
+  },
+  "author": "Camilo Polania",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpolania96/tienda-don_bigotes/issues"
+  },
+  "homepage": "https://github.com/cpolania96/tienda-don_bigotes#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13"
+  }
+}

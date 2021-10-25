@@ -1,0 +1,69 @@
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: $color-blanco_secundario;
+    .container-content {
+        width: 76%;
+        background-color: $color-blanco;
+        .info-label {
+            width: 100%;
+            height: 2rem;
+            padding: 0 18px;
+            display: flex;
+            justify-content: space-between;
+            .label {
+                width: 32%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span,
+                h6 {
+                    display: flex;
+                    align-items: center;
+                }
+                span {
+                    width: 20%;
+                    height: 100%;
+                    justify-content: center;
+                    svg {
+                        height: auto;
+                        width: 30px;
+                        .st0 {
+                            fill: $color-principal;
+                        }
+                    }
+                }
+                h6 {
+                    width: 77%;
+                    height: 72%;
+                    @include roboto;
+                    font-size: 0.85rem;
+                    color: $color-texto-secundario;
+                    border-right: 1px solid $color-principal;
+                }
+            }
+            .l1 {
+                span {
+                    svg {
+                        width: 30px;
+                    }
+                }
+            }
+            .l2 {
+                span {
+                    svg {
+                        width: 20px;
+                    }
+                }
+            }
+            .last {
+                h6 {
+                    border-right: none;
+                }
+            }
+        }
+    }
+}

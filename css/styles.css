@@ -8,8 +8,7 @@ html {
 
 header {
   width: 100%;
-  height: 190px;
-  position: absolute; }
+  height: 190px; }
   header .container-news {
     height: 20%;
     display: flex;
@@ -379,3 +378,51 @@ header {
             width: 100%;
             font-weight: 200;
             padding-left: 4px; }
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #F2F3F4; }
+  main .container-content {
+    width: 76%;
+    background-color: #f8f8ff; }
+    main .container-content .info-label {
+      width: 100%;
+      height: 2rem;
+      padding: 0 18px;
+      display: flex;
+      justify-content: space-between; }
+      main .container-content .info-label .label {
+        width: 32%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        main .container-content .info-label .label span,
+        main .container-content .info-label .label h6 {
+          display: flex;
+          align-items: center; }
+        main .container-content .info-label .label span {
+          width: 20%;
+          height: 100%;
+          justify-content: center; }
+          main .container-content .info-label .label span svg {
+            height: auto;
+            width: 30px; }
+            main .container-content .info-label .label span svg .st0 {
+              fill: #F89922; }
+        main .container-content .info-label .label h6 {
+          width: 77%;
+          height: 72%;
+          font-family: 'Roboto', sans-serif;
+          font-size: 0.85rem;
+          color: #3F3844;
+          border-right: 1px solid #F89922; }
+      main .container-content .info-label .l1 span svg {
+        width: 30px; }
+      main .container-content .info-label .l2 span svg {
+        width: 20px; }
+      main .container-content .info-label .last h6 {
+        border-right: none; }
